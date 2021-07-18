@@ -1,8 +1,25 @@
+/* 
+
+Author: Jonathan Ingram
+
+============= Custome Styles for Bootstrap Grids ============= 
+
+Section 1: Site Wide Styles
+Section 2: Homepage
+
+
+==============================================================
+*/
+
+/* ============= Section 1: Site Wide Styles =============  */
+
 main>.container {
     padding: 60px 15px 0;
 }
 
-/* Background Image for Body */
+/* ============= Section 2: Hompage =============  */
+
+/* Background Image for Body*/
 .home-background-img {
     width: 100%;
     background: url(/img/GridBG.png);
@@ -10,4 +27,13 @@ main>.container {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+/* Custom Title Font */
+.homeText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+    margin-top: 15%;
 }
