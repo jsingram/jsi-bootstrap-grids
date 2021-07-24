@@ -13,6 +13,11 @@ Section 2: Homepage
 
 /* ============= Section 1: Site Wide Styles =============  */
 
+body>main {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
 main>.container {
     padding: 60px 15px 0;
 }
